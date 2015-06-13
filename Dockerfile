@@ -17,8 +17,6 @@ ADD opt/config /opt/cloudbot/
 WORKDIR /opt/cloudbot
 
 # Expose volume
-VOLUME ["/opt/cloudbot/data"]
-VOLUME ["/opt/cloudbot/plugins"]
 VOLUME ["/opt/cloudbot/persist"]
 
 # Start actual haste-server

@@ -26,7 +26,5 @@ Temporary Items
 #####=== docker-cloudbot ===#####
 
 opt/config
-storage/data/*
-!storage/data/.gitkeep
-storage/plugins/*
-!storage/plugins/.gitkeep
+storage/persist/*
+!storage/persist/.gitkeep
