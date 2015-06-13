@@ -1,6 +1,6 @@
 # docker-cloudbot
 
-Dockerized version of the great Python based IRC bot [CloudBot](https://github.com/CloudBotIRC/CloudBot).
+Dockerized version of the great Python2 based IRC bot [CloudBotLegacy](https://github.com/CloudBotIRC/CloudBotLegacy).
 
 ### Installation
 
@@ -8,8 +8,8 @@ Dockerized version of the great Python based IRC bot [CloudBot](https://github.c
   `git clone https://github.com/frdmn/docker-cloudbot.git /opt/docker-cloudbot`
 1. Adjust configuration:  
   `cd /opt/docker-cloudbot`  
-  `cp opt/config.default.json opt/config.json`  
-  `vi opt/config.json`  
+  `cp opt/config.default opt/config`  
+  `vi opt/config`  
 1. Build docker image:  
   `make build`
 1. Run container:  
