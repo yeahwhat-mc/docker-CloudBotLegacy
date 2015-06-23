@@ -16,7 +16,7 @@ Dockerized version of the great Python2 based IRC bot [CloudBotLegacy](https://g
   `make run`
 
 ### Version
-1.0.0
+1.1.0
 
 ### Lincense
 [MIT](LICENSE)
