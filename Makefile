@@ -1,5 +1,5 @@
 AUTHOR = frdmn
-NAME = docker-cloudbot
+NAME = docker-cloudbotlegacy
 VERSION = 1.0.0
 SHELL := /bin/bash
 
